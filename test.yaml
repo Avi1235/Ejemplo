@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:${ parameters["version"] }
+        image: nginx:${ parameters["tag"] }
         ports:
         - containerPort: 80
