@@ -5,3 +5,4 @@ namespace: david-dev
 
 resources:
   - test.yaml   
+  - nginx-index-html-configmap.yaml
