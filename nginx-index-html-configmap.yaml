@@ -1,4 +1,2 @@
-apiVersion: v1
-kind: ConfigMap
 data:
 <html><h4>Hola</h4></html>
