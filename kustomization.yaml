@@ -5,5 +5,3 @@ namespace: david-dev
 
 resources:
   - test.yaml  
-patchesStrategicMerge:
-  - nginx-index-html-configmap.yaml
