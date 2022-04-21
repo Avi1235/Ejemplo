@@ -4,5 +4,6 @@ kind: Kustomization
 namespace: david-dev
 
 resources:
-  - test.yaml   
+  - test.yaml  
+patchesStrategicMerge:
   - nginx-index-html-configmap.yaml
