@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ${ parameters["app"] }
-  namespace: ${ parameters["app"] }
+  namespace: ${ parameters["targetEnv"] }
 spec:
   selector:
     matchLabels:
