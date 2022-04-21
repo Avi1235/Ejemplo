@@ -1,6 +1,4 @@
 apiVersion: v1
 kind: ConfigMap
-metadata:
-  name: nginx-index-html-configmap
 data:
 <html><h4>Hola</h4></html>
