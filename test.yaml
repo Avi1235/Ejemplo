@@ -15,14 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        image: nginx:${ parameters["version"] }
         ports:
         - containerPort: 80
-#         volumeMounts:
-#         - mountPath: /usr/share/nginx/html/index.html
-#           name: nginx-conf
-#           subPath: index.html
-#       volumes:
-#       - name: nginx-conf
-#         configMap:
-#           name: nginx-index-html-configmap
